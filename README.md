@@ -17,7 +17,7 @@ Since neither of us have much coding experience and none in JavaScript/D3, we le
 
 We first tried hard to complete part 1 using node.js and the professor's code template. First, we tested the template code by tweaking it and seeing how it changed. We individually worked on this testing phase and regularly reported our findings to each other. After getting stuck for way too long on several bugs, we ended up changing our strategy.
 
-We found some code online that did not leveraged html and javascript (and not node.js) - while this meant we had to start from scratch, it allowed us to not feel restricted with the existing code. We took monthly average Aqi so we can show data on hover for monthly average aqi in data file and pass it as 15th of the month.
+We found some code online that is different from the file shared by professor but allowed us to create line graph easily- while this meant we had to start from scratch, it allowed us to not feel restricted with the existing code. We took monthly average Aqi so we can show data on hover for monthly average aqi in data file and pass it as 15th of the month.
 
 It is important to note that we are MS in Product Management students and are mainly focused in learning about storytelling through data. This is a critical skill in our field as we will be working with data to create user narratives (while not coding ourselves).
 
