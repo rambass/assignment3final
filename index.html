@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>US AQI</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+</head>
+
+<body>
+
+    <h2 style="text-align: center;">US AQI</h2>
+
+    <div style="display: flex; flex-direction:row; text-align: center;">
+        <div
+            style="width: 110px; height:50px; border-radius:10px; background-color:#9cd84e; padding-top: 10px; margin: 5px;">
+            <span style="font-size: 12px;">Good</span><br />
+            <span style="font-size: 12px;">0-50</span>
+        </div>
+        <div
+            style="width: 110px; height:50px; border-radius:10px; background-color:#facf39; padding-top: 10px; margin: 5px;">
+            <span style="font-size: 12px;">Moderate</span><br />
+            <span style="font-size: 12px;">51-100</span>
+        </div>
+        <div
+            style="width: 110px; height:60px; border-radius:10px; background-color:#f99049; padding-top: 0px; margin: 5px;">
+            <span style="font-size: 12px;">Unhealthy for Sensitive Groups</span>
+            <br />
+            <span style="font-size: 12px;">101-150</span>
+        </div>
+        <div
+            style="width: 110px; height:50px; border-radius:10px; background-color:#f65e5f; padding-top: 10px; margin: 5px;">
+            <span style="font-size: 12px;">Unhealthy</span><br />
+            <span style="font-size: 12px;">151-200</span>
+        </div>
+        <div
+            style="width: 100px; height:50px; border-radius:10px; background-color:#a070b6; padding-top: 10px; margin: 5px;">
+            <span style="font-size: 12px;">Very Unhealthy</span> <br />
+            <span style="font-size: 12px;">201-300</span>
+        </div>
+        <div
+            style="width: 100px; height:50px; border-radius:10px; background-color:#a06a7b; padding-top: 10px; margin: 5px;">
+            <span style="font-size: 12px;">Hazardous</span><br />
+            <span style="font-size: 12px;">>301</span>
+        </div>
+    </div>
+    <select id="dropdown"></select><br>
+    <label for="rawdata">Show Raw Data</label>
+    <input type="checkbox" id="rawdata"><br>
+    <label id="records"></label>
+    <div id="horizontalbarchart"></div>
+
+</body>
+<script src="src/script.js"></script>
+
+</html>
